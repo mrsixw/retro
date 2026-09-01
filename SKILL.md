@@ -1,7 +1,6 @@
 ---
 name: retro
 description: Review a completed agent session for concrete improvements to navigation, automation, standards, information access, and tool economy.
-disable-model-invocation: true
 ---
 
 # Retrospective
