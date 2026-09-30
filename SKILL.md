@@ -1,6 +1,6 @@
 ---
 name: retro
-description: Review a completed agent session for concrete improvements to navigation, automation, standards, information access, and tool economy.
+description: Review a completed agent session from its evidence and recommend concrete improvements to navigation, automation, standards, information access, and tool economy. Use when the user asks for a retrospective or lessons learned on finished work. Not for packaging unfinished work for another agent (use handoff).
 ---
 
 # Retrospective
@@ -11,8 +11,9 @@ of the agent or repository.
 
 ## Review what happened
 
-Read the primary artefacts, commands, failures, corrections, validation, and
-final state. For each material friction point, classify it as:
+Read the primary evidence: the session transcript, commands run and their
+output, CI and validation output, corrections, and the final git state. For
+each material friction point, classify it as:
 
 - an execution mistake;
 - a missing or unclear local convention;
